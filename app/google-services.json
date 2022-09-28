@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "878708713498",
+    "project_id": "calculatorvalult",
+    "storage_bucket": "calculatorvalult.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878708713498:android:e1ff00bcfd226d0da6c9a3",
+        "android_client_info": {
+          "package_name": "com.codecoy.securecalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878708713498-ci032ciim4gnra9i7nmluu1fmsoilfkn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArgDvTK9W43oEN16KJmwyd85DD-2Awh3w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878708713498-ci032ciim4gnra9i7nmluu1fmsoilfkn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

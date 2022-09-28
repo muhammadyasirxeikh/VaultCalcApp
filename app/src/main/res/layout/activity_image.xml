@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:n2="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:background="@color/gray_bacground"
+    android:orientation="vertical">
+    <com.smarteist.autoimageslider.SliderView
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        app:sliderAnimationDuration="600"
+        app:sliderAutoCycleDirection="back_and_forth"
+        app:sliderIndicatorAnimationDuration="600"
+        app:sliderIndicatorEnabled="true"
+        app:sliderIndicatorGravity="center_horizontal|bottom"
+        app:sliderIndicatorMargin="15dp"
+        app:sliderIndicatorOrientation="horizontal"
+        app:sliderIndicatorPadding="3dp"
+        app:sliderIndicatorRadius="2dp"
+        android:visibility="gone"
+        app:sliderIndicatorSelectedColor="#5A5A5A"
+        app:sliderIndicatorUnselectedColor="#FFF"
+        app:sliderScrollTimeInSec="1" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/native_banner">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black_dull"
+            android:id="@+id/view"
+            android:visibility="gone"
+            />
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/relative_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_150sdp"
+
+            android:background="@color/pink"
+
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/front_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:scaleType="centerCrop" />
+
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_10dp"
+                android:scaleX="-1"
+                android:visibility="gone"
+                android:src="@drawable/ic_back" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:id="@+id/image_icon"
+                android:background="@drawable/pics" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/folder_name_tv"
+                android:padding="@dimen/_10dp"
+                android:text="Pictures"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16sdp" />
+
+
+        </RelativeLayout>
+
+        <ViewAnimator
+            android:id="@+id/viewanimator"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/relative_layout">
+
+            <include layout="@layout/progress_view" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txt_error"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/app_color"
+                android:drawableTop="@drawable/ic_baseline_lock_24"
+                android:drawablePadding="10.0dip"
+                android:gravity="center"
+                android:text="No Item Found.\nPlease tap add button to add one."
+                android:textColor="@color/app_color" />
+
+        </ViewAnimator>
+
+        <Button
+            android:id="@+id/btn_unhide"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+
+            android:padding="@dimen/_10dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:layout_marginRight="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_80sdp"
+            android:background="@drawable/btn_back"
+            android:text="Unhide"
+            android:textColor="@color/white"
+            android:visibility="gone"
+             />
+
+        <com.github.clans.fab.FloatingActionMenu
+            android:id="@+id/floatingActionMenuId"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            fab:menu_animationDelayPerItem="50"
+            fab:menu_buttonSpacing="0dp"
+
+            fab:menu_colorPressed="#3F9142"
+            fab:menu_colorRipple="#D99200"
+            fab:menu_icon="@drawable/fab_add"
+            fab:menu_labels_cornerRadius="3dp"
+
+            fab:menu_labels_margin="0dp"
+            fab:menu_labels_maxLines="-1"
+
+            fab:menu_labels_position="left"
+
+
+            fab:menu_labels_singleLine="false"
+            fab:menu_labels_textColor="#ffffff"
+            fab:menu_labels_textSize="14sp"
+
+
+            fab:menu_labels_colorPressed="#444444"
+            fab:menu_labels_colorRipple="#66FFFFFF"
+
+
+            fab:menu_openDirection="up"
+            fab:menu_shadowColor="#444"
+            fab:menu_shadowRadius="4dp"
+            fab:menu_shadowXOffset="1dp"
+            fab:menu_shadowYOffset="3dp"
+            fab:menu_showShadow="true">
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/picturesFloatingActionButtonId"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_insert_photo_white"
+
+                app:fab_colorNormal="@color/blue"
+                fab:fab_label="Pictures"
+                android:padding="10dp"
+                />
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/audioFloatingActionButtonId"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_audio_file_white"
+                app:fab_colorNormal="@color/yellow"
+                fab:fab_label="Audios"
+                android:padding="10dp"
+                />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/videoFloatingActionButtonId"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_video_white"
+                app:fab_colorNormal="@color/pink"
+                fab:fab_label="Videos"
+                android:padding="10dp" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/fileFloatingActionButtonId"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_folder_24_white"
+                app:fab_colorNormal="@color/main_color"
+                fab:fab_label="Files"
+                android:padding="10dp" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/cameraFloatingActionButtonId"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_photo_camera_24_white"
+                app:fab_colorNormal="@color/blue"
+
+                fab:fab_label="Camera"
+                android:padding="10dp" />
+
+        </com.github.clans.fab.FloatingActionMenu>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20.0dip"
+            android:layout_marginTop="20.0dip"
+            android:layout_marginEnd="20.0dip"
+            android:layout_marginBottom="20.0dip"
+            android:src="@drawable/ic_add"
+            android:visibility="gone"
+            n2:backgroundTint="@color/pink"
+            n2:fabSize="normal" />
+
+    </RelativeLayout>
+
+
+
+    <com.facebook.ads.NativeAdLayout
+        android:id="@+id/native_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>

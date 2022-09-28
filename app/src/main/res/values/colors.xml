@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorAccent">#ff00838f</color>
+    <color name="colorPrimary">#ff2c4a</color>
+    <color name="colorPrimaryDark">#ff373b44</color>
+
+    <color name="background">#373A41</color>-->
+
+
+
+    <color name="back">#FBFBFB</color>
+    <color name="back_color">#404656</color>
+    <color name="gray_55">#ff555555</color>
+    <color name="lock_bg_blue">#ff373b44</color>
+    <color name="material_grey_900">#ff212121</color>
+    <color name="tooltip_background_dark">#e6616161</color>
+    <color name="tooltip_background_light">#e6ffffff</color>
+    <color name="trans_white">#80ffffff</color>
+    <color name="white">#ffffffff</color>
+    <color name="main_color">#1881C2</color>
+    <color name="pink_color">#F75177</color>
+    <color name="app_color">#000000</color>
+    <color name="gray_bacground">#CCCCCC</color>
+    <color name="yellow">#DAA70F</color>
+    <color name="green">#3F9142</color>
+    <color name="blue">#2d5394</color>
+    <color name="black">#000000</color>
+    <color name="pink">#ff2c4a</color>
+
+
+    <color name="black_dull">#6B000000</color>
+
+
+</resources>

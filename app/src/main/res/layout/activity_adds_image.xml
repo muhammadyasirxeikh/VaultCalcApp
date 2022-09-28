@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/native_banner"
+        >
+
+        <include
+            android:id="@id/toolbar"
+            layout="@layout/toolbar" />
+
+
+
+        <ViewAnimator
+            android:id="@+id/viewanimator"
+            android:layout_width="fill_parent"
+
+            android:layout_height="fill_parent"
+            android:layout_below="@id/toolbar">
+
+            <include layout="@layout/progress_view" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@id/recyclerview"
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <TextView
+                android:id="@+id/txt_error"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/no_item_found"
+                android:textColor="@color/white" />
+
+        </ViewAnimator>
+
+        <Button
+            android:id="@+id/btn_hide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:padding="10dp"
+            android:background="@drawable/btn_back"
+            android:text="MOve to Vault"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:visibility="visible"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+
+
+    <com.facebook.ads.NativeAdLayout
+        android:id="@+id/native_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
+

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <com.facebook.ads.NativeAdLayout
+        android:id="@+id/native_banner_ad_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray_bacground">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:padding="@dimen/_10dp"
+                android:text="Password Recovery Question"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="16.0sp"
+                android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1.0"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+
+                android:padding="@dimen/_10dp"
+                android:text="Question:"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="12.0sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="3.2"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_20dp"
+                android:background="@drawable/que_ans_back">
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/spin_questions"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/questions"
+                    android:padding="@dimen/_10dp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4"
+                >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.8"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+
+                android:padding="@dimen/_10dp"
+                android:text="Answer:"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="12.0sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_answer"
+                android:layout_width="0dp"
+                android:layout_weight="3.5"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="@dimen/_20dp"
+
+                android:hint="Less than 50 letters"
+                android:padding="10.0dip"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="14.0sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_10dp"
+
+                android:text="The security question lets you reset your password if you forgot it in the future.Please Choose a question that can easily remember. Once you forgot the answer to the question, your encrypted data may be lost"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+
+                 />
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_20dp"
+                android:background="@color/pink"
+                android:text="Next"
+                android:textColor="@color/white" />
+
+
+            <com.facebook.ads.NativeAdLayout
+                android:id="@+id/nativeAdContainerId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:orientation="vertical" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

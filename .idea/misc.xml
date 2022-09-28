@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/drawable-anydpi/ic_back.xml" value="0.2755" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/drawable-mdpi/equal_button_background.xml" value="0.1" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/drawable-v24/ic_baseline_drawable_menu.xml" value="0.312" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/drawable/add_folder_icon.xml" value="0.193" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/drawable/audio_pink_icon.xml" value="0.258" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/drawable/bg_input_tag.xml" value="0.1" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/drawable/btn_back.xml" value="0.1785" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/drawable/camera_pink_icon.xml" value="0.258" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/drawable/circleback1.xml" value="0.1205" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/drawable/circleback2.xml" value="0.1335" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/drawable/circleback3.xml" value="0.1335" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/drawable/circlebackground.xml" value="0.1355" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/drawable/circlebackgroundblue.xml" value="0.14" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/drawable/counting_button_background.xml" value="0.1" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/drawable/dialog_header_back.xml" value="0.1785" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/drawable/folder_pink_icon.xml" value="0.258" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/drawable/hint_icon.xml" value="0.193" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/drawable/ic_baseline_audio_file_white.xml" value="0.258" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/drawable/ic_baseline_delete_forever_24.xml" value="0.203" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.203" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/drawable/ic_baseline_folder_24_white.xml" value="0.258" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/drawable/ic_baseline_insert_photo_white.xml" value="0.28" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/drawable/ic_baseline_photo_camera_24_white.xml" value="0.258" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/drawable/ic_baseline_picture_in_picture_24.xml" value="0.1" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/drawable/ic_baseline_video_white.xml" value="0.258" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/drawable/picture_pink_icon.xml" value="0.258" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/drawable/que_ans_back.xml" value="0.1" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/drawable/video_pink_icon.xml" value="0.258" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/activity_adds_image.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/activity_all_files.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/activity_calc.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/activity_calculator.xml" value="0.21" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/activity_confirm_calc.xml" value="0.1" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/activity_confirm_pass.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/activity_file_selection.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/activity_full_screen_image.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/activity_image.xml" value="0.16926869350862778" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/activity_new_calc.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/activity_on_board_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/activity_security_question.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/activity_un_authorised.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/activity_video.xml" value="0.25" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/add_new_folder_layout.xml" value="0.365625" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/app_bar_main.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/dialog_choose_other_pass.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/dialog_confirm_set_password.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/dialog_current_pass_wrong.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/dialog_forgot_pass_hint.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/dialog_progress.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/dialog_rate_us.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/dialog_security_question.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/dialog_set_password_failed.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/dialog_set_password_hint.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/dialog_successfully_set_password.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/dlg_exit1.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/facebook_native_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/fragment_albums_grid.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/home_laoyut.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/item_file.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/item_file_hide.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/item_hidevideo.xml" value="0.33" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/item_option.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/list_item_main.xml" value="0.24166666666666667" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/list_item_main_grid.xml" value="0.23489583333333333" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/list_single.xml" value="0.1" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/main_layout.xml" value="0.1" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/nav_header_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/new_layout.xml" value="0.24166666666666667" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/option_menu_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/privacy_policy.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/progress_view.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/raw_all_images.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/row_image.xml" value="0.22" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/testlayout.xml" value="0.15648148148148147" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/testlayout_grid.xml" value="0.15648148148148147" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/toolbar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/layout/top_recycler_item.xml" value="0.203125" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/menu/add_image_menu.xml" value="0.11145833333333334" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/menu/change_view_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/menu/full_screen_image_menu.xml" value="0.11145833333333334" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/menu/image_menu.xml" value="0.11145833333333334" />
+        <entry key="..\:/Users/yasir/Downloads/VaultCalcApp/app/src/main/res/menu/menu_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/other/VaultCalcApp/app/src/main/res/drawable-mdpi/equal_button_background.xml" value="0.1" />
+        <entry key="..\:/other/VaultCalcApp/app/src/main/res/drawable/circleback1.xml" value="0.18" />
+        <entry key="..\:/other/VaultCalcApp/app/src/main/res/drawable/circleback2.xml" value="0.18" />
+        <entry key="..\:/other/VaultCalcApp/app/src/main/res/drawable/counting_button_background.xml" value="0.1" />
+        <entry key="..\:/other/VaultCalcApp/app/src/main/res/drawable/hint_icon.xml" value="0.169" />
+        <entry key="..\:/other/VaultCalcApp/app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.1" />
+        <entry key="..\:/other/VaultCalcApp/app/src/main/res/drawable/ic_baseline_lock_open_24.xml" value="0.1575" />
+        <entry key="..\:/other/VaultCalcApp/app/src/main/res/layout/activity_adds_image.xml" value="0.20416666666666666" />
+        <entry key="..\:/other/VaultCalcApp/app/src/main/res/layout/activity_calc.xml" value="0.18" />
+        <entry key="..\:/other/VaultCalcApp/app/src/main/res/layout/activity_calculator.xml" value="0.1033434650455927" />
+        <entry key="..\:/other/VaultCalcApp/app/src/main/res/layout/activity_image.xml" value="0.18802083333333333" />
+        <entry key="..\:/other/VaultCalcApp/app/src/main/res/layout/app_bar_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/other/VaultCalcApp/app/src/main/res/layout/dialog_layout.xml" value="0.27421875" />
+        <entry key="..\:/other/VaultCalcApp/app/src/main/res/layout/home_laoyut.xml" value="0.36666666666666664" />
+        <entry key="..\:/other/VaultCalcApp/app/src/main/res/layout/item_view_pager.xml" value="0.36666666666666664" />
+        <entry key="..\:/other/VaultCalcApp/app/src/main/res/layout/list_item_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/other/VaultCalcApp/app/src/main/res/layout/main_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/other/VaultCalcApp/app/src/main/res/layout/option_menu_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/other/VaultCalcApp/app/src/main/res/layout/raw_all_images.xml" value="0.20416666666666666" />
+        <entry key="..\:/other/VaultCalcApp/app/src/main/res/layout/testlayout.xml" value="0.36666666666666664" />
+        <entry key="..\:/other/VaultCalcApp/app/src/main/res/layout/testlayout_grid.xml" value="0.36666666666666664" />
+        <entry key="..\:/other/VaultCalcApp/app/src/main/res/layout/toolbar.xml" value="0.18802083333333333" />
+        <entry key="..\:/other/VaultCalcApp/app/src/main/res/menu/add_image_menu.xml" value="0.18802083333333333" />
+        <entry key="..\:/other/VaultCalcApp/app/src/main/res/menu/change_view_menu.xml" value="0.18802083333333333" />
+        <entry key="..\:/other/VaultCalcApp/app/src/main/res/menu/full_screen_image_menu.xml" value="0.11666666666666667" />
+        <entry key="..\:/other/VaultCalcApp/app/src/main/res/menu/image_menu.xml" value="0.11666666666666667" />
+        <entry key="..\:/other/VaultCalcApp/app/src/main/res/menu/menu_list.xml" value="0.11666666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

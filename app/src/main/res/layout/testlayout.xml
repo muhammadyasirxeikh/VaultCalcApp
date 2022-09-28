@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+
+  android:background="@color/white"
+    android:id="@+id/main_layout"
+
+    android:layout_height="match_parent">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_dull"
+        android:id="@+id/view"
+        android:visibility="gone"
+        />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/recyclerview"
+
+        android:scrollbars="none"
+        />
+
+
+
+
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/floatingActionMenuId"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        fab:menu_animationDelayPerItem="50"
+        fab:menu_buttonSpacing="0dp"
+
+        app:menu_labels_colorNormal="@android:color/transparent"
+        fab:menu_colorPressed="#3F9142"
+        fab:menu_colorRipple="#D99200"
+        fab:menu_icon="@drawable/fab_add"
+        fab:menu_labels_cornerRadius="3dp"
+
+        fab:menu_labels_margin="0dp"
+        fab:menu_labels_maxLines="-1"
+
+        fab:menu_labels_position="left"
+
+
+        fab:menu_labels_singleLine="false"
+        fab:menu_labels_textColor="#ffffff"
+        fab:menu_labels_textSize="14sp"
+
+
+
+        fab:menu_labels_colorPressed="#444444"
+        fab:menu_labels_colorRipple="#66FFFFFF"
+
+        app:menu_labels_style="@null"
+
+        fab:menu_openDirection="up"
+        fab:menu_shadowColor="#444"
+        fab:menu_shadowRadius="4dp"
+        fab:menu_shadowXOffset="1dp"
+        fab:menu_shadowYOffset="3dp"
+        fab:menu_showShadow="true">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/picturesFloatingActionButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_insert_photo_white"
+
+           app:fab_colorNormal="@color/blue"
+            fab:fab_label="Pictures"
+            android:padding="10dp"
+
+            />
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/audioFloatingActionButtonId"
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_audio_file_white"
+            app:fab_colorNormal="@color/yellow"
+            fab:fab_label="Audios"
+            android:padding="10dp"
+           />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/videoFloatingActionButtonId"
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_video_white"
+            app:fab_colorNormal="@color/pink"
+            fab:fab_label="Videos"
+            android:padding="10dp" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fileFloatingActionButtonId"
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_folder_24_white"
+            app:fab_colorNormal="@color/main_color"
+            fab:fab_label="Files"
+            android:padding="10dp"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/cameraFloatingActionButtonId"
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_photo_camera_24_white"
+            app:fab_colorNormal="@color/blue"
+            fab:fab_label="Camera"
+            android:padding="10dp" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

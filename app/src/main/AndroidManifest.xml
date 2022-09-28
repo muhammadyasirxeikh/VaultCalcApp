@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.codecoy.securecalculator">
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera2.full"
+        android:required="false" />
+
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        android:required="false" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <permission
+        android:name="com.codecoy.securecalculator.calculator.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.safe.gallery.calculator.permission.C2D_MESSAGE" />
+
+    <application
+        android:name=".app.MainApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/app_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".activities.OnBoardScreen"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SplashScreen"
+            android:theme="@style/Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.UnAuthorisedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ConfirmCalcActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.CalcActivity" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.codecoy.securecalculator.calculator.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="0ce6f17679679c8352cf0e5ef02141b9890d837c" />
+
+        <activity
+            android:name=".activities.HomeActivity"
+            android:excludeFromRecents="true"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".image.ImageActivity"
+            android:excludeFromRecents="true"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".image.ImagesActivity"
+            android:excludeFromRecents="true"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".image.add.AddImageActivity"
+            android:excludeFromRecents="true"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".fullscreenimage.FullScreenImageActivity"
+            android:excludeFromRecents="true"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".video.VideoActivity"
+            android:excludeFromRecents="true"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".audios.AudiosActivity"
+            android:excludeFromRecents="true"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".files.FilesActivity"
+            android:excludeFromRecents="true"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".files.FileSelectionActivity"
+            android:excludeFromRecents="true"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".files.FolderSelectionsActivity"
+            android:excludeFromRecents="true"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".audios.add.AddAudiosActivity"
+            android:excludeFromRecents="true"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".video.add.AddVideoActivity"
+            android:excludeFromRecents="true"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".activities.ChangePasswordActivity"
+            android:excludeFromRecents="true"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".activities.SecurityQuestionActivity"
+            android:excludeFromRecents="true"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".privacy.PrivacyPolicyActivity"
+            android:excludeFromRecents="true"
+            android:screenOrientation="sensorPortrait" />
+
+        <receiver android:name=".utils.PolicyManager">
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/device_admin_sample" />
+        </receiver>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.codecoy.securecalculator.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+    </application>
+
+</manifest>

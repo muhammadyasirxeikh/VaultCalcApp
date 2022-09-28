@@ -1,0 +1,35 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+
+
+
+    <item
+        android:id="@+id/view"
+        android:icon="@drawable/menu_icon"
+        android:title=""
+        android:iconTint="@color/black"
+        app:showAsAction="always">
+    <menu>
+        <item
+            android:id="@+id/list_view"
+            android:title="List View"
+
+            app:showAsAction="never"/>
+        <item
+            android:id="@+id/grid_view"
+            android:title="Grid View"
+            app:showAsAction="never"/>
+    </menu>
+    </item>
+
+<!--    <item-->
+<!--        android:id="@+id/idea"-->
+<!--        android:icon="@drawable/idea"-->
+<!--        android:title=""-->
+<!--        android:iconTint="@color/black"-->
+<!--        app:showAsAction="always"/>-->
+</menu>
